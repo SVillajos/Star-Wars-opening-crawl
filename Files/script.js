@@ -4,7 +4,7 @@ const stars = 1000;
 // Looping through the stars
 for (let i =0; i < stars; i++) {
     let star = document.createElement("div")
-    star.className = 'stars'
+    star.className = 'star'
     var xy = randomPosition();
     star.style.top = xy[0] + 'px'
     star.style.left = xy[1] + 'px'

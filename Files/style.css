@@ -3,3 +3,11 @@ body {
     background-color: #000;
     overflow: hidden;
 }
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: rgb(172, 172, 172);
+  }
+
