@@ -1,5 +1,7 @@
-const stars = 1000
+// Setting the number of stars to display
+const stars = 1000;
 
+// Looping through the stars
 for (let i =0; i < stars; i++) {
     let star = document.createElement("div")
     star.className = 'stars'
@@ -9,6 +11,7 @@ for (let i =0; i < stars; i++) {
     document.body.append(star)
 }
 
+// Getting random values
 function randomPosition() {
     var y = window.innerWidth
     var x = window.innerHeight
